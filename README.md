@@ -9,7 +9,7 @@ The purpose is to provide reusable demo/development environment leveraging docke
 [Adventure Works](https://learn.microsoft.com/en-us/sql/samples/adventureworks-install-configure?view=sql-server-ver16&tabs=ssms)  
 [Wide World Importers](https://learn.microsoft.com/en-us/sql/samples/wide-world-importers-what-is?view=sql-server-ver16)
 
-## Prerequistite
+## Pre-requisites
 
 These database backfiles are too large to keep in the repository so you will need to download them first:
 
