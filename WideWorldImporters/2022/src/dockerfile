@@ -1,0 +1,14 @@
+FROM mcr.microsoft.com/mssql/server:2022-latest
+
+COPY . /var/opt/mssql/wideworldimporters
+
+WORKDIR /var/opt/mssql/wideworldimporters
+
+# Ensure permissions to use the setup scripts
+USER root
+RUN chmod +x ./entrypoint.sh
+RUN chmod +x ./attach-databases.sh
+
+RUN chmod +x ./AttachDbs.sql
+
+CMD /bin/bash ./entrypoint.sh
