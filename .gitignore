@@ -4,8 +4,7 @@
 ## Get latest from https://github.com/github/gitignore/blob/main/VisualStudio.gitignore
 
 # Ignore large database backup files
-AdventureWorks\2022\src\databases\AdventureWorks2022.bak
-WideWorldImporters\2022\src\databases\WideWorldImporters-Full.bak
+*.bak
 
 # User-specific files
 *.rsuser
